@@ -1,4 +1,20 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
-void 
+void displayMenu();
+void addItem();
+void displayItems();
+
+double calculateTotalSize();
+double calculateAverageSize();
+double calculateLargestSize();
+double calculateSmallestSize();
+
+void displayCategoryStorage();
+void classifyFileSize();
+
+int searchByID(int id);
+void sortBySize();
+
+double calculateTotalRecursive(int index);
